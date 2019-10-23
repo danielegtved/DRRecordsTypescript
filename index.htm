@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>DR Records</title>
+  <link rel="stylesheet" type="text/css" href="bundle.css">
+</head>
+
+<body>
+  <h1>DR Records</h1>
+  <h3>Get All</h3>
+  <button id="getAllButton">Get All</button>
+  <div id="recordList"></div>
+
+  <h3>Get One</h3>
+  <input id="getOneInput" placeholder="ID">
+  <button id="getOneButton">Get One</button>
+  <div id="oneRecord"></div>
+  <div id="statusCode"></div>
+
+  <h3>Search title or artist</h3>
+
+  <input id="titleSearchInput" placeholder="Title">
+  <button id="titleSearchButton">Search</button>
+
+  <input id="artistSearchInput" placeholder="Artist name">
+  <button id="artistSearchButton">Search</button>
+
+  <div id="searchList"></div>
+  <div id="searchStatusCode"></div>
+
+  <h3>Add or update Record</h3>
+  <input id="titleInput" placeholder="Title">
+  <input id="artistInput" placeholder="Artist">
+  <input id="durationInput" placeholder="Duration (00:00)">
+  <input type="date" id="dateInput">
+  <button id="addButton">Add</button>
+  <button id="updateButton">Update</button>
+  <input type="number" id="updateID" placeholder="ID">
+  <div id="addStatusCode"></div>
+
+  <h3>Delete</h3>
+  <input id="deleteInput" placeholder="ID">
+  <button id="deleteButton">Delete</button>
+  <div id="deleteStatusCode"></div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
